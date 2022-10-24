@@ -1,0 +1,122 @@
+/*
+	Comment
+*/
+
+a {
+	/* Comment */
+	color:
+		/* Comment */
+		red;
+}
+
+.TestClass {
+	color: black;
+	background-color: white;
+	text-align: float;
+}
+
+html{
+	height:100%;
+}
+
+body {
+	height: 100%;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	align-items:center;
+	justify-items:center;
+	margin: 0;
+	padding: 0;
+	background: url(pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.loginbox {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	width: 330px;
+	background: rgba(142, 162, 216, 0.301);
+	border-style: double;
+	border-color: aquamarine;
+	color: white;
+	/*top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);*/
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 10%;
+}
+
+.profile{ 
+	position: absolute;
+	top: -100px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	/*position: absolute;
+	top: -50%;
+	left: calc(50% - 50px);*/
+	padding-top: 30px;
+}
+
+h1 { 
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox p{ 
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+} 
+
+.loginbox input{ 
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{ 
+	border: none;
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline: none;
+	height:40px;
+	color:#fff;
+	font-size: medium;
+}
+
+.icon-space { 
+	height: 70px;
+	width: 80px;
+	background-color: blueviolet;
+	visibility: hidden;
+}
+
+.loginbox input[type="submit"]:hover
+{ 
+	cursor: pointer;
+	background:rgba(142, 162, 216, 0.301);
+	color:#fff;
+}
+
+.loginbox a{ 
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+}
+
+.loginbox a:hover
+{ 
+	color: #fffc10;
+	text-decoration-line: underline;
+}
